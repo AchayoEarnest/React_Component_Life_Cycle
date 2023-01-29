@@ -18,7 +18,7 @@ export default class Counter extends React.Component {
 
   render() {
     return (
-      <div className="bg-teal-300 h-screen flex justify-center items-center">
+      <div>
         <div className=" bg-white p-6 rounded-lg w-96 h-96 shadow-lg flex justify-center items-center">
           <div className="flex flex-col text-center gap-3">
             <h2>Counter</h2>
