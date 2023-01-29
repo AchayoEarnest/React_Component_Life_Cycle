@@ -15,9 +15,15 @@ export class App extends Component {
   render() {
     return (
       <div className="bg-teal-300 h-screen flex justify-center items-center flex-col">
-        <div>
-          <button>Mount</button>
-          <button>Unmount</button>
+        <div className="flex gap-3 mb-2">
+          <button
+            className=" bg-red-500 rounded-lg p-2 text-white w-24  hover:bg-red-400"
+            onClick={this.mount}
+          >
+            Mount
+          </button>
+          <button className=" bg-red-500 rounded-lg p-2 text-white w-24 hover:bg-red-400"
+            onClick={this.unmount}>Unmount</button>
         </div>
 
         <Counter />
